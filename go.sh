@@ -1,0 +1,1 @@
+cd && mv cpuminer-in-termux/rtmsetup.sh ~/ && mv cpuminer-in-termux/rtmmine.sh ~/ && mv cpuminer-in-termux/installubuntu.sh ~/ && mv cpuminer-in-termux/startubuntu.sh ~/ && ls && chmod +x installubuntu.sh startubuntu.sh &&   ./installubuntu.sh
