@@ -1,1 +1,1 @@
-cd ; cd ubuntu-in-termux ; proot --link2symlink -0 -r ubuntu-fs -b /dev -b /proc -b /sys -b ubuntu-fs/tmp:/dev/shm -w /root /usr/bin/env -i "HOME=/root" "PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/games:/usr/local/bin:/usr/local/sbin:/usr/local/games" bash -c "./rtmmine.sh"
+cd ; cd ubuntu-in-termux ; unset LD_PRELOAD ; proot --link2symlink -0 -r ubuntu-fs -b /dev -b /proc -b /sys -b ubuntu-fs/tmp:/dev/shm -w /root /usr/bin/env -i "HOME=/root" "PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/games:/usr/local/bin:/usr/local/sbin:/usr/local/games" bash -c "./rtmmine.sh"
