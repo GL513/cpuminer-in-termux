@@ -1,6 +1,21 @@
 # cpuminer-in-termux
-### Warning! 1.0 setup command is outdated. Please wait for the setup script on 1.0 to be fixed
-Yes, code is a mess right now. Filesize will soon be shrunk and organized.
-~~**Note, if anyone can figure out how to smoothly transition to Ubuntu in termux without having to run a `.sh` file more than once for *setup*, please create a pull request**~~<br>Auto-start miner compilation coming soon.<br>[See issue](https://github.com/GL513/cpuminer-in-termux/issues/1)<br><br>
-Run the following command to install [cpuminger-gr](https://github.com/michal-zurkowski/cpuminer-gr) to Termux on your Android phone to mine RTM on it. Press `n` when prompted Just run this, keep your RTM address in the clipboard, and paste it into the `[ENTER YOUR ADDRESS HERE]` section, and press ctrl + o, press enter, then press ctrl + x, and you'll be on your way.<br><br>
+
+> ## What is this?
+> cpuminer-in-termux is a collection of automated scripts so users can mine [Raptoreum](https://raptoreum.com/) to their wallet address using [cpuminer-gr](https://github.com/michal-zurkowski/cpuminer-gr).
+> 
+> ## Is this safe?
+> Yes, cpuminer-in-termux is completely safe. You can ask in the [Discord Server](https://discord.gg/Raptoreum)
+
+> ## How do I use it?
+> To mine Raptoreum on your Android phone, get the application [Termux](https://f-droid.org/en/packages/com.termux/). Scroll down, and click "Download APK" on the latest version. *There is an older version of Termux on the Play Store, but it is out of support due to new Android OS policies)
+> Once downloaded, open the APK file. Install the application. Open the application once installed.
+> After Termux installs it's bootstrap (nothing is downloaded at this point), run this command:<br><br>
 `apt-get update && apt-get upgrade -y && apt-get install git -y && git clone https://github.com/GL513/cpuminer-in-termux && mv cpuminer-in-termux/rtmsetup1.sh ~/ && ls && chmod +x rtmsetup1.sh && ./rtmsetup1.sh`
+<br><br>
+> When prompted, type in `n` and press enter.
+> Soon, you will be prompted again. This time, you are brought into the configuration file for the automatic setup script. Type in your address where it says `[ENTER YOUR ADDRESS HERE]`. Custom pool optional. Default is R-Pool. Press `ctrl`+`o`, press enter, and then do `ctrl`+`x` when finished.
+> After this, cpuminer should begin building. This will take alot of memory (RAM), so the device will be very laggy.
+> Press `ctrl`+`c` when blue text appears. If you don't see blue text, scroll up. There will be a cow that tells you to exit using `ctrl`+`c`.
+> Type "exit", and then press enter if application is not exited already.
+> Re-enter Termux, and do ./rtmmine.sh
+> You are now mining to your own address.
