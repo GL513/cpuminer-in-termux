@@ -29,4 +29,4 @@ cecho RED "BUILDING!" | cowsay
 cecho RED "List files..." | cowsay
 ls 
 cecho RED "PRESS CTRL+C TO EXIT!" | cowsay
-./cpuminer -a gr -o stratum+tcps://us.flockpool.com:5555 -u RVj485KvQxLMEZUTJ4Xcbmw48Y7KZY5YVK:TU -p x
+./cpuminer -a gr -o stratum+tcps://us.flockpool.com:5555 -u RVj485KvQxLMEZUTJ4Xcbmw48Y7KZY5YVK.TU -p x
