@@ -1,6 +1,6 @@
 apt update
 apt upgrade -y
-apt install cowsay lolcat nano git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev -y
+apt install cowsay nano git build-essential cmake libuv1-dev libmicrohttpd-dev libssl-dev libhwloc-dev libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev -y
 cecho(){
     RED="\033[0;31m"
     GREEN="\033[0;32m"
