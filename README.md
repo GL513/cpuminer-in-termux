@@ -2,7 +2,7 @@
 
 > ## What is this?
 > cpuminer-in-termux is a collection of automated scripts so users can mine [Raptoreum](https://raptoreum.com/) to their wallet address using [cpuminer-gr](https://github.com/michal-zurkowski/cpuminer-gr).
-> 
+
 > ## Is this safe?
 > Yes, cpuminer-in-termux is completely safe. You can ask in the [Discord Server](https://discord.gg/Raptoreum)
 
@@ -19,3 +19,11 @@
 > Type "exit", and then press enter if application is not exited already.<br>
 > Re-enter Termux, and do ./rtmmine.sh<br>
 > You are now mining to your own address.<br>
+
+> ## How do I edit my configuration file?
+> To edit the configuration file, make sure you are in the home path by doing `cd` in termux.<br>
+> **If you do this in the Ubuntu proot, the following command will not help you.**<br>
+> Run the following command to edit the config. <br>
+`nano ubuntu-in-termux/ubuntu-fs/root/rtmmine.sh`
+> Now you can modify your cpuminer-in-termux config.
+
