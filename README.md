@@ -24,6 +24,6 @@
 > To edit the configuration file, make sure you are in the home path by doing `cd` in termux.<br>
 > **If you do this in the Ubuntu proot, the following command will not help you.**<br>
 > Run the following command to edit the config. <br>
-`nano ubuntu-in-termux/ubuntu-fs/root/rtmmine.sh`
+`nano ubuntu-in-termux/ubuntu-fs/root/rtmmine.sh` <br>
 > Now you can modify your cpuminer-in-termux config.
 
