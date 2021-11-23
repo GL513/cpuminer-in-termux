@@ -14,7 +14,7 @@ cecho(){
     printf "${!1}${2} ${NC}\n"
 }
 cecho GREEN "Moved files/installed packages..." | cowsay
-git clone https://github.com/MFDGaming/ubuntu-in-termux
+git clone https://github.com/MFDGaming/ubuntu-in-termux -b ubuntu20.04.3
 cecho GREEN "Cloned 'ubuntu-in-termux'..." | cowsay
 cd ubuntu-in-termux
 cecho GREEN "Went to folder..." | cowsay
