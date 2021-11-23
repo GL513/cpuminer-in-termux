@@ -35,8 +35,20 @@
 > cpuminer-in-termux will now start at boot.
 >
 
+> ## Do I have to use the command line?
+> No, users are not forced to only use the command line.
+> To set up button-press shortcuts, install [Termux:Widget](https://f-droid.org/packages/com.termux.widget).
+> If you have been using cpuminer-in-termux for a while on an old installation, run the command below: <br><br>
+`cd ; nano ubuntu-in-termux/ubuntu-fs/root/rtmmine.sh` <br><br>
+> Now, when you use the Termux widget on your home screen, you should see two buttons appear. They are both named after their actions.
+> If you have just installed cpuminer-in-termux, then all you should have to do is place the widget on your home screen.
+> Now running the miner and editing your config is only a click away.
+
+
 > ## Special thanks to...
 >
+>> MCO3 (`<@200274544735420417>`) for sparking the idea of an automated script with a slightly messy manual code found online.
+>>
 >> [michal-zurkowski](https://GitHub.com/michal-zurkowski/) for his minor (but still amazing) help desk support, and of course [the miner](https://GitHub.com/michal-zurkowski/cpuminer-gr/)
 >>
 >> [MDFGaming](https://GitHub.com/MDFGaming) for his very helpful, open, and versatile proot, [ubuntu-in-termux](https://GitHub.com/MDFGaming/ubuntu-in-termux/)
