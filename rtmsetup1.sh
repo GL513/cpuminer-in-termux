@@ -1,4 +1,5 @@
-cd && mv cpuminer-in-termux/startubuntu.sh ~/
+cd
+mv cpuminer-in-termux/startubuntu.sh ~/
 mv cpuminer-in-termux/rtmmine.sh ~/
 mv cpuminer-in-termux/rtmmine1.sh ~/
 mv cpuminer-in-termux/rtmsetup2.sh ~/
