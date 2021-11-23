@@ -43,6 +43,9 @@ mv rtmmine1.sh rtmmine.sh
 cecho GREEN "Rename 'rtmmine1.sh' to 'rtmmine.sh'..." | cowsay
 chmod +x rtmmine.sh
 cecho GREEN "Grant executable privilege to run..." | cowsay
+mkdir -p /data/data/com.termux/files/home/.shortcuts
+chmod 700 -R /data/data/com.termux/files/home/.shortcuts
 cp rtmmine.sh ~/.shortcuts/rtmmine.sh
 cp editconfig.sh ~/.shortcuts/editconfig.sh
+cecho GREEN "Made shortcuts available" | cowsay
 cecho GREEN "cpuminer-in-termux finished building, or was cancelled by user. To enter the miner, do './rtmmine.sh'" | cowsay
