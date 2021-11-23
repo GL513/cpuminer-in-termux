@@ -1,4 +1,9 @@
-cd && mv cpuminer-in-termux/startubuntu.sh ~/ && mv cpuminer-in-termux/rtmmine.sh ~/ ; mv cpuminer-in-termux/rtmmine1.sh ~/ ; mv cpuminer-in-termux/rtmsetup2.sh ~/ && apt-get install wget proot cowsay tree -y
+cd && mv cpuminer-in-termux/startubuntu.sh ~/
+mv cpuminer-in-termux/rtmmine.sh ~/
+mv cpuminer-in-termux/rtmmine1.sh ~/
+mv cpuminer-in-termux/rtmsetup2.sh ~/
+mv cpuminer-in-termux/editconfig.sh ~/
+apt-get install wget proot cowsay tree -y
 cecho(){
     RED="\033[0;31m"
     GREEN="\033[0;32m"
@@ -37,4 +42,6 @@ mv rtmmine1.sh rtmmine.sh
 cecho GREEN "Rename 'rtmmine1.sh' to 'rtmmine.sh'..." | cowsay
 chmod +x rtmmine.sh
 cecho GREEN "Grant executable privilege to run..." | cowsay
+cp rtmmine.sh ~/.shortcuts/rtmmine.sh
+cp editconfig.sh ~/.shortcuts/editconfig.sh
 cecho GREEN "cpuminer-in-termux finished building, or was cancelled by user. To enter the miner, do './rtmmine.sh'" | cowsay
