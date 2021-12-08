@@ -51,6 +51,6 @@
 >>
 >> [michal-zurkowski](https://GitHub.com/michal-zurkowski/) for his minor (but still amazing) help desk support, and of course [the miner](https://GitHub.com/michal-zurkowski/cpuminer-gr/)
 >>
->> [MDFGaming](https://GitHub.com/MDFGaming) for his very helpful, open, and versatile proot, [ubuntu-in-termux](https://GitHub.com/MDFGaming/ubuntu-in-termux/)
+>> [MFDGaming](https://GitHub.com/MFDGaming) for his very helpful, open, and versatile proot, [ubuntu-in-termux](https://GitHub.com/MFDGaming/ubuntu-in-termux/)
 >>
 >> LightsFlash (`<@148145219332734976>`) and Marmota Geek (`<@305378307065774080>`) for giving me the idea to put a tiny piece on how to edit the config.
