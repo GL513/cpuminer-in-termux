@@ -24,7 +24,7 @@
 > To edit the configuration file, make sure you are in the home path by doing `cd` in termux.<br>
 > **If you do this in the Ubuntu proot, the following command will not help you.**<br>
 > Run the following command to edit the config. <br><br>
-`nano ubuntu-in-termux/ubuntu-fs/root/rtmmine.sh` <br><br>
+`nano ubuntu-in-termux/ubuntu-fs/root/rtmmine.sh` < br >< br > 
 > Now you can modify your cpuminer-in-termux config.
 
 > ## How do I run it at boot?
@@ -42,15 +42,15 @@
 `cd ; mkdir -p /data/data/com.termux/files/home/.shortcuts ; chmod 700 -R /data/data/com.termux/files/home/.shortcuts ; cp rtmmine.sh ~/.shortcuts/rtmmine.sh ; cp editconfig.sh ~/.shortcuts/editconfig.sh` <br><br>
 > Now, when you use the Termux widget on your home screen, you should see two buttons appear. They are both named after their actions.
 > If you have just installed cpuminer-in-termux, then all you should have to do is place the widget on your home screen.
-> Now running the miner and editing your config is only a click away.
 
 
-> ## Special thanks to...
->
->> MCO3 (`<@200274544735420417>`) for sparking the idea of an automated script with a slightly messy manual code found online.
->>
->> [michal-zurkowski](https://GitHub.com/michal-zurkowski/) for his minor (but still amazing) help desk support, and of course [the miner](https://GitHub.com/michal-zurkowski/cpuminer-gr/)
->>
->> [MFDGaming](https://GitHub.com/MFDGaming) for his very helpful, open, and versatile proot, [ubuntu-in-termux](https://GitHub.com/MFDGaming/ubuntu-in-termux/)
->>
->> LightsFlash (`<@148145219332734976>`) and Marmota Geek (`<@305378307065774080>`) for giving me the idea to put a tiny piece on how to edit the config.
+
+
+
+
+
+
+
+
+
+
